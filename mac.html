@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Mack Book</title>
+</head>
+
+<body>
+    <div class="flex mt-10">
+        <div class="w-1/2">
+            <div class="h-80 w-80 ml-60"> <img src="images\mac.png" alt=""></div>
+        </div>
+
+        <div class="w-1/2 mr-20">
+            <h1 class="text-4xl">Customize Your Blue 24-inch iMack with Apple M1 Chip.</h1>
+            <p class="mt-5 text-justify ">The ISP on M1 uses computational video to enhance image quality. To capture
+                stunning video,
+                it goes
+                through a
+                series of steps to analyze and enhance each pixel, at over a trillion operations per second. Advanced
+                noise
+                reduction algorithms bring a new level of clarity</p>
+
+            <div class="mb-5">
+                <label class="text-l block mt-5 font-semibold" for="">Memory</label>
+                <button id="memory-button1"
+                    class="mt-1 p-1 border-solid border-2 bg-blue-400 rounded border-gray-500 hover:bg-blue-400 ">8GB
+                    Undefined
+                    Memory</button>
+                <button id="memory-button2"
+                    class="mt-1 p-1 border-solid border-2  rounded border-gray-500 hover:bg-blue-400 ">16GB
+                    Undefined Memory</button>
+            </div>
+
+            <div class="mb-5">
+                <label class="text-l block mt-5 font-semibold" for="">Storage</label>
+                <button id="storage-button1"
+                    class="mt-1 p-1 border-solid border-2 bg-blue-400 rounded border-gray-500 hover:bg-blue-400 ">256GB
+                    SSD
+                    Storage</button>
+                <button id="storage-button2"
+                    class="mt-1 p-1 border-solid border-2  rounded border-gray-500 hover:bg-blue-400 ">512GB SSD
+                    Storage</button>
+                <button id="storage-button3"
+                    class="mt-1 p-1 border-solid border-2  rounded border-gray-500 hover:bg-blue-400 ">1TB SSD
+                    Storage</button>
+            </div>
+
+            <div class="mb-5">
+                <label class="text-l block mt-5 font-semibold" for="">Choose Your Delivery Option</label>
+                <button id="delivery-charge-button1"
+                    class="mt-1 p-1 border-solid border-2 bg-blue-400 rounded border-gray-500 hover:bg-blue-400 ">Order
+                    Within
+                    7days Free Delivery</button>
+                <button id="delivery-charge-button2"
+                    class="mt-1 p-1 border-solid border-2  rounded border-gray-500 hover:bg-blue-400 ">Order Within
+                    3days Delivery Charge
+                    $20</button>
+            </div>
+            <div class="w-1/2 flex mt-10 font-semibold">
+                <div>
+                    <h3>Best Price</h3>
+                    <h3>Extra Memory Cost</h3>
+                    <h3>Extra Storage Cost</h3>
+                    <h3>Extra Delivery Charge</h3>
+                    <h3 class="mt-5">Total Price</h3>
+                </div>
+                <div class="ml-40">
+                    <h3>$<span>1290</span></h3>
+                    <h3>$<span id="extra-memory-cost">0</span></h3>
+                    <h3>$<span id="extra-storage-cost">0</span></h3>
+                    <h3>$<span id="extra-delivery-cost">0</span></h3>
+                    <h3 class="mt-5 ">$<span id="total-cost">1290</span></h3>
+                </div>
+
+            </div>
+            <div class="mt-5">
+                <input id="promo-field" class="p-1 border-solid border-2 border-gray-500" type="text"
+                    placeholder="Add Promo Code">
+                <button id="promo-button" class="p-2 bg-red-600">Apply</button>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="text-2xl  font-semibold mt-5 mb-5 text-center">
+        <h1>Total Price $ <span id="screen-total-cost">1290</span></h1>
+
+
+    </div>
+
+
+
+    <script src="/mac.js"></script>
+
+</body>
+
+</html>
